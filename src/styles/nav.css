@@ -1,0 +1,100 @@
+body{
+    background-color: #323437;
+    color: white;
+    text-align: center;
+}
+h2{
+    text-align: center;
+    margin-top: 3%;
+
+}
+.container{
+    margin-top:3%;
+    
+   
+}
+.nav-item{
+    margin-left: 30px;
+    font-size: 18px;
+}
+.brand{
+    color: yellow;
+}
+.text-container{
+    border: 3px solid red;
+    padding: 3%;
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 3%;
+}
+.row{
+    border: 2px solid orange;
+}
+.paragraph{
+    /* border: 2px solid blue; */
+    text-align:justify;
+    opacity: 0.9;
+    font-weight: bold;
+    color: grey;
+    letter-spacing: 1px;
+    margin-top: 3%;
+    margin-left: 10%;
+    width: 80%;
+}
+.row{
+  
+    margin-bottom: 30px;
+    color: yellow;
+}
+.custom-selection{
+    border: 1px solid grey;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    width: 40%;
+    height: 46px;
+    border-radius: 10px;
+    margin-left: 30%;
+
+
+    /* align-content: center; */
+
+
+}
+.custom-selection>ul>li{
+    display: inline-block;
+    /* border: 1px solid gold; */
+    /* padding: 1%; */
+    font-size: 1rem;
+    margin-left: 8px;
+    margin-right: 5px;
+    /* margin-top: 4%; */
+
+    
+    
+}
+
+/* #content{
+    width: 100vw;
+    height: 100vh;
+
+} */
+p{
+   text-align: left;
+   word-spacing: 6px;
+   
+}
+footer{
+    margin-top: 5%;
+}
+span{
+    opacity: 0.5;
+    transition: all 0.4 ease;
+}
+span.fade{
+    color: yellow;
+}
+h6{
+    margin-top: 20px;
+    color: yellow;
+}
